@@ -1,9 +1,16 @@
 /* Curious Weather App  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 0.5%;
 }
 
 h1 {
@@ -14,7 +21,7 @@ h1 {
   margin: 1%;
   /* border: 2px solid red; */
   width: 100%;
-  height: 50%;
+  height: 10%;
 }
 
 .card {
@@ -22,7 +29,7 @@ h1 {
   margin: 0.3%;
   border-radius: 1%;
   width: 100%;
-  height: 90%;
+  height: 25%;
 }
 
 .card-header {
@@ -45,15 +52,18 @@ h1 {
 .day-temp-display {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 3%;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
 }
 
 .each-display {
   background-color: lightgray;
-  height: 600px;
-  width: 50%;
-  margin: 3%;
+  /* height: 600px; */
+  height: 50%;
+  width: 45%;
+  margin: 0.5%;
   border-radius: 2%;
+  cursor: pointer;
 }
 
 h4 {
@@ -66,20 +76,20 @@ h4 {
   border: none;
   border-radius: 50%;
   height: auto;
-  width: 60%;
-  margin-left: 22%;
-  margin-top: 30%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
 }
 
 .weather-text {
-  margin-top: 30%;
+  margin-top: 5%;
 }
 
 .cookie-box {
   position: fixed;
   bottom: 40%;
-  right: 10%;
-  left: 10%;
+  right: 5%;
+  left: 6%;
   background-color: lightskyblue;
   border-radius: 0.5%;
 }
@@ -93,9 +103,9 @@ h4 {
 }
 
 .accept-btn {
-  color: lightskyblue;
-  /* background-color: rgb(201, 229, 247); */
-  border: 2px solid lightskyblue;
+  color: black;
+  background-color: white;
+  border: none;
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
