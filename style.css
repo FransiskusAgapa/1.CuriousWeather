@@ -86,17 +86,18 @@ h4 {
 
 .cookie-box > h5,
 .cookie-box > button,
-.cookie-box > p {
+.cookie-box > p.a {
   margin: 1%;
+  display: flex;
+  justify-content: center;
 }
 
 .accept-btn {
   color: lightskyblue;
-  background-color: rgb(201, 229, 247);
+  /* background-color: rgb(201, 229, 247); */
   border: 2px solid lightskyblue;
-  border: 30%;
-
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   text-decoration: none;
+  margin-left: 50%;
 }
