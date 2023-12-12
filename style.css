@@ -1,6 +1,8 @@
 /* Curious Weather App  */
 body {
   font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -9,6 +11,7 @@ h1 {
 
 .container {
   margin: 2%;
+  /* border: 2px solid red; */
 }
 
 .card {
@@ -37,4 +40,11 @@ h1 {
 .day-temp-display {
   display: flex;
   justify-content: space-around;
+}
+
+.wather-img {
+}
+
+.weather-img {
+  border: 2px solid red;
 }
